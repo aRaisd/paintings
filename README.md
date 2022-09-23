@@ -1,7 +1,7 @@
 On Github:
   - created repository: paintings
   - created README.md file
-  - copy https://github.com/aRaisd/paintings.git
+  - copy https://github.com/aRaisd/paintings.git (for HTTPS from Code 'drop down')
   
 On local:
   - To create & initialise paintings project (in the projects folder) type: git clone https://github.com/aRaisd/paintings.git

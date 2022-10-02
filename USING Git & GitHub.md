@@ -1,9 +1,9 @@
 Git - a distributed Version Control System  (VCS)
 
 1- INSTALL Git - go to  git-scm.com
-2- FIRST SETUP
+
+2- FIRST SETUP, SET CONFIG VALUES (to configure username, password and email on local repo ) 
   - git --version (to check version)
-3- SET CONFIG VALUES (to configure username, password and email on local repo )
   - git config --global user.name "GeeksforGeeks"
   - git config --global user.password "1234321"
   - git config --global user.email "GFGexample@gmail.orgg"
@@ -23,13 +23,14 @@ Git - a distributed Version Control System  (VCS)
     - git branch -a
     - git diff								- shows changes made, '-' in red are codes remooved. '+' in green are codes added
 
-4- TYPICAL WORKFLOW
-	- git branch calc-div				- create a branch 'cal-div' from the master branch
-	- git checkout calc-div			- change branch cal-div
+3- TYPICAL WORKFLOW
+	
+	- git branch calc-div 		- create a branch 'cal-div' from the master branch
+	- git checkout calc-div	 	- change branch cal-div
 	- git diff
 	- git status
-	- git add -A								- adds changes to staginng  area
-	- git commit -m "message"		- commits the changes to the local branch calc-div! No effect on the master branch / remote repo 
+	- git add -A 			- adds changes to staginng  area
+	- git commit -m "message"	- commits the changes to the local branch calc-div! No effect on the master branch / remote repo 
 	- git pull origin master
 	- git push origin master
 	

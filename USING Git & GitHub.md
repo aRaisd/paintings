@@ -48,12 +48,14 @@ GETTING STARTED USINNG GIT  2 SCENERIOS - (to track changes)
 SCENERIO 1 - Existing Project on local repository
 ----------------------
   a) INITIALIZE A REPOSITORY from existing code
-    $ git init  - creates a '.git' file (on Git CMD  in the project folder)
+    - On Git CMD in the project folder (paintings): git init  - creates a '.git' file ()
+  
 
 
 SCENERIO 2 - Existing Project on remote repository ( on Github):  paintings
 ---------------------------------------------------------------------
-  a) Copied https://github.com/aRaisd/paintings.git (for HTTPS from Code 'drop down')
+  a) On GitHub, Copied https://github.com/aRaisd/paintings.git (for HTTPS from Code 'drop down')
   b) On local repository:
     - go to myprojects folder.
-    - To create paintings reps, in Git-CMD Type: git clone https://github.com/aRaisd/paintings.git
+    - To create paintings repo, in Git-CMD Type: git clone https://github.com/aRaisd/paintings.git
+    - 

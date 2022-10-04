@@ -54,6 +54,7 @@ SCENERIO 1 - Existing Project on local repository
 SCENERIO 2 - Existing Project on remote repository ( on Github):  paintings
 ---------------------------------------------------------------------
   a) Copied https://github.com/aRaisd/paintings.git (for HTTPS from Code 'drop down')
+  
   b) On local repository:
     - go to myprojects folder.
     - To create paintings reps, in Git-CMD Type: git clone https://github.com/aRaisd/paintings.git

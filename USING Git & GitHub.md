@@ -9,30 +9,30 @@ Git - a distributed Version Control System  (VCS)
   - git config --global user.email "GFGexample@gmail.orgg"
   - git config --list --show-origin
   - usefull commands:
-    - git help <verb>  /  git <verb> --help
-    - git status              - shows the branch, changes to be committed and untracked files
-    - touch .gitignore        - to list the files to be ignored
-    - git add -A              - add all files to staging area
-    - git add .gitignore      - add .gitignore to staging area
-    - git reset .gitignore    - to remove .gitignore from staging area
-    - git commit -m "message" - to commit, which adds the files in the stage area to the repo    
-    - git log                 - display the commits made, hash number, the Auther, date and the message for each ccommit
-    - git clone <url> <where to clone>  - cloning from a remote repo <url>
-    - git clone ../remote_repo.git .    - cloning from a remote repo
-    - git remote -v											- viewing info about the remote repo
-    - git branch -a
-    - git diff								- shows changes made, '-' in red are codes remooved. '+' in green are codes added
+    . git help <verb>  /  git <verb> --help
+    . git status              - shows the branch, changes to be committed and untracked files
+    . touch .gitignore        - to list the files to be ignored
+    . git add -A              - add all files to staging area
+    . git add .gitignore      - add .gitignore to staging area
+    . git reset .gitignore    - to remove .gitignore from staging area
+    . git commit -m "message" - to commit, which adds the files in the stage area to the repo    
+    . git log                 - display the commits made, hash number, the Auther, date and the message for each ccommit
+    . git clone <url> <where to clone>  - cloning from a remote repo <url>
+    . git clone ../remote_repo.git .    - cloning from a remote repo
+    . git remote -v											- viewing info about the remote repo
+    . git branch -a
+    . git diff								- shows changes made, '-' in red are codes remooved. '+' in green are codes added
 
 3- TYPICAL WORKFLOW
 	
-	- git branch calc-div 		- create a branch 'cal-div' from the master branch
-	- git checkout calc-div	 	- change branch cal-div
-	- git diff
-	- git status
-	- git add -A 			- adds changes to staginng  area
-	- git commit -m "message"	- commits the changes to the local branch calc-div! No effect on the master branch / remote repo 
-	- git pull origin master
-	- git push origin master
+	. git branch calc-div 		- create a branch 'cal-div' from the master branch
+	. git checkout calc-div	 	- change branch cal-div
+	. git diff
+	. git status
+	. git add -A 			- adds changes to staginng  area
+	. git commit -m "message"	- commits the changes to the local branch calc-div! No effect on the master branch / remote repo 
+	. git pull origin master
+	. git push origin master
 	
 
 	

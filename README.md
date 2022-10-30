@@ -3,15 +3,11 @@
 RWD site for display paintings
 
 index.html map
-  -Head
-    -Title
-    -Links
-  -Nav
-  -Gallery
-  -About me
-  -contact
-  -footer
-  -Js scripts
+    -Nav
+    -Gallery
+    -About me
+    -contact
+    -footer
 
 scss map
   -Default settings

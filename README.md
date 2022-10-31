@@ -3,6 +3,7 @@
 RWD site for display paintings
 
 index.html map
+
     -Nav
     -Gallery
     -About me
@@ -10,8 +11,9 @@ index.html map
     -footer
 
 scss map
-  -Default settings
-  -Mobile settings
-  -iPad settings
-  -Pc settings
+    
+    -Default settings
+    -Mobile settings
+    -iPad settings
+    -Pc settings
 
